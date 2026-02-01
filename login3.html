@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Back</title>
+  <link rel="stylesheet" href="login3.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>WELCOME BACK</h2>
+    <P>It's good to see you again!</P>
+    <form action="/login">
+      <div class="input-group">
+        <label for="email">Email
+        <input placeholder="myemail@gmail.com" type="email" name="email" id="email" required>
+      </label>
+      </div>
+      <div class="input-group">
+        <label for="password">Password
+        <input placeholder="**********" type="password" name="password" id="password" required>
+      </label>
+      </div>
+
+      <div class="forget-remember">
+        <label for="remember me">
+          <input type="checkbox" name="remember me" id="remember me">Remember me
+        </label>
+        <a href="#">Forget Password</a>
+      </div>
+      <button class="sign-in" type="submit" name="submit">Sign in</button>
+    </form>
+    <div class="line-container">
+      <div class="left-line"></div>
+      <p>Or continue with</p>
+      <div class="right-line"></div>
+    </div>
+    <div class="google-github-container">
+    <button><a href="#">Google</a></button>
+    <button><a href="#">github</a></button>
+    </div>
+  </div>
+</body>
+</html>
